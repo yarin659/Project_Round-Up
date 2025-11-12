@@ -1,8 +1,6 @@
 [build]
-  command = "npm rebuild esbuild && npm install && npm run build"
+  command = "yarn install --ignore-optional && yarn build"
   publish = "dist"
 
 [build.environment]
   NODE_VERSION = "18"
-  NPM_FLAGS = "--omit=optional"
-
