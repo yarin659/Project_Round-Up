@@ -17,7 +17,7 @@ const NavBar = () => {
 
   return (
     <Bar>
-      <Brand to="/">SBT</Brand>
+      <Brand to="/">Round-Up</Brand>
 
       <Right>
         <Button to="/transactions">Transactions</Button>
